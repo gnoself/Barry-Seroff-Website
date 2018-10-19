@@ -1,3 +1,38 @@
-/* F O N T S */
+/* ====================== FONTS ===================== */
 
-@font-face {}
+@font-face {
+	font-family: 'gogoia regular';
+	src: url('../fonts/gogoia/gogoia-regular.otf') format('otf'),
+		 url('../fonts/gogoia/gogoia-regular-webfont.woff2') format('woff2'),
+         url('../fonts/gogoia/gogoia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'znikomit';
+	src: url('../fonts/znikomit/Znikomit.otf') format('otf'),
+         url('../fonts/znikomit/znikomit-webfont.woff2') format('woff2'),
+         url('../fonts/znikomit/znikomit-webfont.woff') format('woff');
+    font-style: normal;
+	}
+
+
+
+
+
+
+
+
+/* ===================== NAVBAR ===================== */
+
+
+
+
+
+
+
+
+/* =================== MAIN STYLES ================== */
+
+
