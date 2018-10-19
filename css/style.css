@@ -1,3 +1,13 @@
+/*
+/*rgb(120,120,120); /*silver*/
+/*rgb(252,251,227); /*cream*/
+/*rgb(50,0,100); /*indigo*/
+/*
+
+
+
+
+
 /* ====================== FONTS ===================== */
 
 @font-face {
@@ -28,9 +38,39 @@
 
 nav ul li {
 	font-family: 'gogoia regular';
-
+	list-style: none;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 50px 0 50px 7%;
+	border-radius: 20px 20px 0 0;
 }
 
+nav ul li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgb(252,251,227); /*cream*/
+}
+
+nav ul li a:hover {
+	color: rgb(120,120,120); /*silver*/
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+}
+
+nav ul li a:active {
+	color: #000;
+	border-borrom: 2px solid;
+	border-top: 2px solid;
+}
+
+.navbar {
+	background-color: rgb(50,0,100); /*indigo*/;
+}
 
 
 
