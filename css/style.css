@@ -10,7 +10,7 @@
 }
 
 @font-face {
-	font-family: 'znikomit';
+	font-family: znikomit;
 	src: url('../fonts/znikomit/Znikomit.otf') format('otf'),
          url('../fonts/znikomit/znikomit-webfont.woff2') format('woff2'),
          url('../fonts/znikomit/znikomit-webfont.woff') format('woff');
@@ -36,9 +36,13 @@
 /* =================== MAIN STYLES ================== */
 
 h1, h2, h3 {
-	font-style: 'gogoia regular';
+	font-family: 'gogoia regular';
+}
+
+nav ul li {
+	font-family: 'gogoia regular';
 }
 
 p {
-	font-style: znikomit;
+	font-family: znikomit;
 }
