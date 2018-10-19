@@ -26,7 +26,10 @@
 
 /* ===================== NAVBAR ===================== */
 
+nav ul li {
+	font-family: 'gogoia regular';
 
+}
 
 
 
@@ -39,10 +42,22 @@ h1, h2, h3 {
 	font-family: 'gogoia regular';
 }
 
-nav ul li {
-	font-family: 'gogoia regular';
-}
-
 p {
 	font-family: znikomit;
 }
+
+body {
+	background-color: rgb(120,120,120); /*silver*/);
+}
+
+.main-div {
+	background-color: rgb(252,251,227); /*cream*/
+}
+
+
+
+
+
+/* =====================  LAYOUT ==================== */
+
+b {}
