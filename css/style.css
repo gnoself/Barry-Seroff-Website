@@ -47,10 +47,12 @@ nav {
 
 nav a img {
 	position: abolute;
+	margin: 0;
+	padding:0;
 	top: 0;
 	left: 0;
-	height: auto;
-	width: 15%;
+
+	width: 100%;
 	border-radius: 20px 0 0 0;
 }
 
@@ -60,9 +62,8 @@ nav ul li {
 	list-style: none;
 	text-align: center;
 	margin: 0;
-	padding: 50px 0 50px 0;
+	padding: 50px 50px 50px 0;
 	display: inline-block;
-	padding-right: 50px;
 	font-size: 2rem;
 	letter-spacing: 8px;
 }
@@ -135,7 +136,7 @@ body {
 
 /* =====================  LAYOUT ==================== */
 
-.container {
-/*	margin-top: 30px;*/
-/*	border-radius: 20px;*/
-}
+/*.container {
+	margin-top: 0; 
+	border-radius: 20px;
+}*/
