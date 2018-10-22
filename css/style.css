@@ -36,6 +36,24 @@
 
 /* ===================== NAVBAR ===================== */
 
+.nav-container {
+
+}
+
+nav {
+	background-color: rgb(50,0,100); /*indigo*/;
+	border-radius: 20px 20px 0 0;
+}
+
+nav a img {
+	position: abolute;
+	top: 0;
+	left: 0;
+	height: auto;
+	width: 15%;
+	border-radius: 20px 0 0 0;
+}
+
 nav ul li {
 	font-family: 'gogoia regular';
 	list-style: none;
@@ -43,9 +61,6 @@ nav ul li {
 	text-align: center;
 	margin: 0;
 	padding: 50px 0 50px 0;
-}
-
-nav ul li {
 	display: inline-block;
 	padding-right: 50px;
 	font-size: 2rem;
@@ -66,15 +81,9 @@ nav ul li a:hover {
 
 nav ul li a:active {
 	color: #000;
-	border-borrom: 2px solid;
+	border-bottom: 2px solid;
 	border-top: 2px solid;
 }
-
-nav {
-	background-color: rgb(50,0,100); /*indigo*/;
-	border-radius: 20px 20px 0 0;
-}
-
 
 
 
