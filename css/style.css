@@ -1,4 +1,4 @@
-/*
+
 /* rgb(120,120,120); /* silver */
 /* rgb(252,251,227); /* cream */
 /* rgb(50,0,100); /* indigo */
@@ -36,13 +36,11 @@
 
 /* ===================== NAVBAR ===================== */
 
-.nav-container {
-
-}
 
 nav {
 	background-color: rgb(50,0,100); /*indigo*/;
 	border-radius: 20px 20px 0 0;
+	font-size: 1.8rem;
 }
 
 nav a img {
@@ -51,20 +49,23 @@ nav a img {
 	padding:0;
 	top: 0;
 	left: 0;
-
+	height: 173.13px;
 	width: 100%;
 	border-radius: 20px 0 0 0;
 }
 
+nav ul {
+	padding: 60px 0 0 80px;
+	margin: 0;
+}
+
 nav ul li {
-	font-family: 'gogoia regular';
-	list-style: none;
+	font-family: 'gogoia regular', helvetica, arial, sans-serif;
 	list-style: none;
 	text-align: center;
 	margin: 0;
-	padding: 50px 50px 50px 0;
+	padding-right: 3%;
 	display: inline-block;
-	font-size: 2rem;
 	letter-spacing: 8px;
 }
 
@@ -89,22 +90,26 @@ nav ul li a:active {
 
 
 
+
+
+
 /* =================== MAIN STYLES ================== */
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'gogoia regular';
+	font-family: 'gogoia regular', helvetica, arial, sans-serif;
 	font-weight: bold;
 	letter-spacing: 8px;
 }
 
 p {
-	font-family: znikomit;
+	font-family: znikomit, helvetica, arial, sans-serif;
 	font-weight: bold;
 }
 
 body {
 	background-color: rgb(120,120,120); /* silver */;
+	padding: 40px 10%;
 }
 
 .main-div {
@@ -134,9 +139,84 @@ body {
 
 
 
-/* =====================  LAYOUT ==================== */
+
+
+
+
+
+
+
+/* =====================  LAYOUT  ==================== */
 
 /*.container {
 	margin-top: 0; 
 	border-radius: 20px;
 }*/
+
+
+
+
+
+
+
+
+
+
+/* ==================  MEDIA QUERIES  ================= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	nav ul li {
+		font-size: 1.5rem;
+		text-align: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	nav ul {
+		padding-left: 0;
+		padding-top: 0;
+	}
+	nav ul li {
+		text-align: center;
+		margin: 0;
+		padding: 10px;
+		padding-right: 30px;
+		display: block;
+		font-size: 1rem;
+	}
+}
+
+@include media-breakpoint-up @media (max-width: 767px) {
+	body {
+		padding: 0;
+	}
+	nav ul li {
+		font-size: .5rem;
+		padding: 0;
+
+	}
+	nav,
+	nav a img,
+	.main-div {
+		border-radius: 0;
+	}
+}
+
+
+/*@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
