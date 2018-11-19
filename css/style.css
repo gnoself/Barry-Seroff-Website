@@ -93,7 +93,7 @@ nav ul li a:active {
 /* MAX NAV CODE */
 
 .flex-container{
-    margin: 0;
+    margin: 20px 0 0 0;
     padding:0;
     display: inline-flex;
     list-style: none;
@@ -190,9 +190,13 @@ body {
 	background-color: rgb(120,120,120); /* silver */;
 }
 
+.nav-container {
+	border-radius: 20px 20px 0 0;
+}
 .main-div {
 	background-color: rgb(252,251,227); /*cream*/
 	border-radius: 0 0 20px 20px;
+	margin-bottom: 20px;
 }
 
 .blockquote {
