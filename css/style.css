@@ -34,63 +34,13 @@
 
 
 
+
+
+
+
 /* ===================== NAVBAR ===================== */
 
-/*
-nav {
-	background-color: rgb(50,0,100); /*indigo*/
-/*	border-radius: 20px 20px 0 0;
-	font-size: 1.8rem;
-}
 
-nav a img {
-	position: abolute;
-	margin: 0;
-	padding:0;
-	top: 0;
-	left: 0;
-	height: 173.13px;
-	width: 100%;
-	border-radius: 20px 0 0 0;
-}
-
-nav ul {
-	padding: 60px 0 0 80px;
-	margin: 0;
-}
-
-nav ul li {
-	font-family: 'gogoia regular', helvetica, arial, sans-serif;
-	list-style: none;
-	text-align: center;
-	margin: 0;
-	padding-right: 3%;
-	display: inline-block;
-	letter-spacing: 8px;
-}
-
-nav ul li a {
-	text-decoration: none;
-	color: rgb(252,251,227); /*cream*/
-/*}
-
-nav ul li a:hover {
-	text-decoration: none;
-	color: rgb(120,120,120); /*silver*/
-/*	border-bottom: 2px solid;
-	border-top: 2px solid;
-}
-
-nav ul li a:active {
-	color: #000;
-	border-bottom: 2px solid;
-	border-top: 2px solid;
-}
-*/
-
-
-
-/* MAX NAV CODE */
 
 .flex-container{
     margin: 20px 0 0 0;
@@ -123,50 +73,16 @@ nav ul li a:active {
 	border-bottom: 2px solid;
 	border-top: 2px solid; 
 }
-
-.flex-list-item a:
-
-
-
-
-/*nav ul li {
-	font-family: 'gogoia regular';
-	list-style: none;
-	list-style: none;
-	text-align: center;
-	margin: 0;
-	padding: 50px 0 50px 0;
-}
-
-nav ul li {
-	display: inline-block;
-	padding-right: 50px;
-	font-size: 2rem;
-	letter-spacing: 8px;
-}
-
-nav ul li a {
-	text-decoration: none;
-	color: rgb(252,251,227); 
-}
-
-nav ul li a:hover {
-	text-decoration: none;
-	color: rgb(120,120,120); 
-	border-bottom: 2px solid;
-	border-top: 2px solid;
-}
-
-nav ul li a:active {
+.flex-list-item a:active {
 	color: #000;
-	border-borrom: 2px solid;
-	border-top: 2px solid;
 }
 
-nav {
-	background-color: rgb(50,0,100); 
-	border-radius: 20px 20px 0 0;
-}*/
+
+
+
+
+
+
 
 
 
@@ -190,11 +106,15 @@ body {
 	background-color: rgb(120,120,120); /* silver */;
 }
 
+.display-2 {
+	font-family: 'gogoia regular', helvetica, arial, sans-serif;
+}
+
 .nav-container {
 	border-radius: 20px 20px 0 0;
 }
 .main-div {
-	background-color: rgb(252,251,227); /*cream*/
+	background-color: rgb(252,251,227); /* cream */
 	border-radius: 0 0 20px 20px;
 	margin-bottom: 20px;
 }
@@ -227,62 +147,15 @@ body {
 
 
 
+/* =================== MUSIC PAGE STYLES ================== */
 
-/* =====================  LAYOUT  ==================== */
-
-/*.container {
-	margin-top: 0; 
-	border-radius: 20px;
-}*/
-
-
-
-
-
-
-
-
-
-
-/* ==================  MEDIA QUERIES  ================= */
-
-/*@media (min-width: 992px) and (max-width: 1199px) {
-	nav ul li {
-		font-size: 1.5rem;
-		text-align: left;
-	}
+.audio {
+	padding-bottom: 30px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-	nav ul {
-		padding-left: 0;
-		padding-top: 0;
-	}
-	nav ul li {
-		text-align: center;
-		margin: 0;
-		padding: 10px;
-		padding-right: 30px;
-		display: block;
-		font-size: 1rem;
-	}
-}
 
-@include media-breakpoint-up @media (max-width: 767px) {
-	body {
-		padding: 0;
-	}
-	nav ul li {
-		font-size: .5rem;
-		padding: 0;
 
-	}
-	nav,
-	nav a img,
-	.main-div {
-		border-radius: 0;
-	}
-}*/
+
 
 /* M E D I A  Q U E R Y  F U N */ 
 /* Extra small devices (portrait phones, less than 576px) */
