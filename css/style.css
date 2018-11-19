@@ -151,6 +151,26 @@ body {
 	font-family: znikomit;
 }
 
+p a {
+	color: rgb(50,0,100);
+	border-bottom: 2px solid;
+	border-top: 2px solid; 
+}
+
+p a:hover {
+    text-decoration: none;
+    color: rgb(120,120,120); /*silver*/
+	border-bottom: 2px solid;
+	border-top: 2px solid; 
+}
+p a:active {
+	color: #000;
+}
+
+
+
+
+
 
 
 
