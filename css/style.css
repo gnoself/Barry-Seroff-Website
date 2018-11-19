@@ -100,6 +100,16 @@ body {
 	background-color: rgb(120,120,120); /* silver */;
 }
 
+.basic-link {
+    border: none;
+    color: blue;
+}
+
+.basic-link:hover {
+    border: none;
+    color: lightblue;
+}
+
 .display-2 {
 	font-family: 'gogoia regular', helvetica, arial, sans-serif;
 }
