@@ -36,10 +36,10 @@
 
 /* ===================== NAVBAR ===================== */
 
-
+/*
 nav {
-	background-color: rgb(50,0,100); /*indigo*/;
-	border-radius: 20px 20px 0 0;
+	background-color: rgb(50,0,100); /*indigo*/
+/*	border-radius: 20px 20px 0 0;
 	font-size: 1.8rem;
 }
 
@@ -72,12 +72,12 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: rgb(252,251,227); /*cream*/
-}
+/*}
 
 nav ul li a:hover {
 	text-decoration: none;
 	color: rgb(120,120,120); /*silver*/
-	border-bottom: 2px solid;
+/*	border-bottom: 2px solid;
 	border-top: 2px solid;
 }
 
@@ -86,8 +86,87 @@ nav ul li a:active {
 	border-bottom: 2px solid;
 	border-top: 2px solid;
 }
+*/
 
 
+
+/* MAX NAV CODE */
+
+.flex-container{
+    margin: 0;
+    padding:0;
+    display: inline-flex;
+    list-style: none;
+    width:100%;
+    background-color: rgb(50,0,100);
+    
+}
+
+#flex-image {
+    style="flex: 1;"
+}
+
+#flex-list {
+    flex: 3;
+    align-self: center;
+}
+
+.flex-list-item a {
+    font-family: 'gogoia regular';
+    color: rgb(252,251,227);
+    text-decoration: none;
+}
+
+.flex-list-item a:hover {
+    text-decoration: none;
+    color: rgb(120,120,120); /*silver*/
+	border-bottom: 2px solid;
+	border-top: 2px solid; 
+}
+
+.flex-list-item a:
+
+
+
+
+/*nav ul li {
+	font-family: 'gogoia regular';
+	list-style: none;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 50px 0 50px 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-right: 50px;
+	font-size: 2rem;
+	letter-spacing: 8px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgb(252,251,227); 
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: rgb(120,120,120); 
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+}
+
+nav ul li a:active {
+	color: #000;
+	border-borrom: 2px solid;
+	border-top: 2px solid;
+}
+
+nav {
+	background-color: rgb(50,0,100); 
+	border-radius: 20px 20px 0 0;
+}*/
 
 
 
@@ -109,7 +188,6 @@ p {
 
 body {
 	background-color: rgb(120,120,120); /* silver */;
-	padding: 40px 10%;
 }
 
 .main-div {
@@ -164,7 +242,7 @@ body {
 
 /* ==================  MEDIA QUERIES  ================= */
 
-@media (min-width: 992px) and (max-width: 1199px) {
+/*@media (min-width: 992px) and (max-width: 1199px) {
 	nav ul li {
 		font-size: 1.5rem;
 		text-align: left;
@@ -200,6 +278,35 @@ body {
 	.main-div {
 		border-radius: 0;
 	}
+}*/
+
+/* M E D I A  Q U E R Y  F U N */ 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
 
 
