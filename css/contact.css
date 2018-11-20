@@ -1,0 +1,48 @@
+form {
+	margin: 20px auto;
+	color: rgb(50,0,100);
+}
+
+input[type=text] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	color: rgb(120,120,120);
+	border: 2px solid rgb(50,0,100);
+}
+
+input[type=email] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	color: rgb(120,120,120);
+	border: 2px solid rgb(50,0,100);
+}
+
+textarea {
+	height: 200px;
+	width: 100%;
+	color: rgb(120,120,120);
+	border: 2px solid rgb(50,0,100);
+}
+
+input[type=submit] {
+	text-align: center;
+	height: 40px;
+	width: 250px;
+	margin: 0 auto;
+	color: rgb(252,251,227);
+	background: rgb(50,0,100);
+}
+
+input[type=submit]:hover {
+	color: rgb(50,0,100);
+	background: rgb(252,251,227);
+	border: 2px solid rgb(50,0,100);
+}
+
+input[type=submit]:active {
+	color: rgb(50,0,100);
+	background: rgb(120,120,120);
+
+}
