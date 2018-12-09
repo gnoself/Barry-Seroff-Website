@@ -3,6 +3,11 @@ form {
 	color: rgb(50,0,100);
 }
 
+.err-msg {
+    font-size: .8em;
+    color: red;
+}
+
 input[type=text] {
 	display: block;
 	margin-bottom: 25px;
@@ -36,8 +41,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+<<<<<<< HEAD
 	color: rgb(50,0,100);
 	background: rgb(120,120,120);
+=======
+	color: rgb(252,251,227);
+	background: rgb(60,10,120);
+>>>>>>> 775decf7a5da7b4215cac9c54b09ecd6cdd4aa2f
 	border: 2px solid rgb(50,0,100);
 }
 
