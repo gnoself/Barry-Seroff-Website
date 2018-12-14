@@ -37,7 +37,7 @@ $mail->setFrom('01014testbot@gmail.com', '01014 Delivery');
 //Set an alternative reply-to address
 $mail->addReplyTo('replyto@example.com', 'First Last');
 //Set who the message is to be sent to
-$mail->addAddress('mf.qozle@gmail.com', 'John Doe');
+$mail->addAddress('barryseroff@yahoo.com', 'John Doe');
 //Set the subject line
 $mail->Subject = 'Contact form submission received';
 //Set the message body, some checks have to be done here.
